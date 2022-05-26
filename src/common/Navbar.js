@@ -41,3 +41,7 @@ function Navbar() {
 }
 
 export default Navbar;
+
+// COMPONENTA NAVIGARE = va contine 2 link uri stnga (home, produse)
+// logo mijloc
+// link dreapta cu wishlist si nr elementelor adaugate in wishlist ex : (3)

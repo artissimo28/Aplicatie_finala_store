@@ -4,8 +4,8 @@ import {
 	Route,
 } from "react-router-dom";
 
-import Produse from "./views/Produse";
-import Wishlist from "./views/Wishlist";
+import ProductsPage from "./views/ProductsPage";
+import Wishlist from "./Wishlist/Wishlist";
 import Home from "./views/Home";
 import Navbar from "./common/Navbar";
 
@@ -14,10 +14,9 @@ function App() {
 		<div>
 			<Router>
 				<Navbar />
-
 				<div style={{ marginTop: "100px" }}>
 					<Switch>
-						<Route path='produse' element={<Produse />} />
+						<Route path='produse' element={<ProductsPage />} />
 
 						<Route path='/wishlist' element={<Wishlist />} />
 
